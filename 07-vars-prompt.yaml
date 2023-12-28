@@ -5,8 +5,8 @@
     prompt: Please enter your password
     private: false
   - name: PASSWORD
-     prompt: Please enter your password
-     private: true 
+    prompt: Please enter your password
+    private: true 
   tasks:
   - name: print and check the values
     ansible.builtin.debug:
