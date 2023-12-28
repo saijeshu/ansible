@@ -1,0 +1,6 @@
+- name: variables from prompt
+  hosts: localhost
+  tasks:
+  - name: check variables
+    ansible.builtin.debug:
+      msg: "username is {{USERNAME}}, password is {{PASSWORD}}"  
