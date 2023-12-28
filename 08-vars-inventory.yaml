@@ -3,4 +3,4 @@
   tasks:
   - name: check variables
     ansible.builtin.debug:
-      msg: "username is {{USERNAME}}, password is {{PASSWORD}}"  
+      msg: "Hi, I am learning {{Course}}, Trainer is {{Trainer}}, Duration is {{Duration}}"   
