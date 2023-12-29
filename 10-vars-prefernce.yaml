@@ -13,7 +13,7 @@
     PERSON: "Siva from play"
     WISHES: "Morning from play"
   tasks:
-  - name: check variables:
+  - name: check variables
     vars:
       PERSON: "siva from task"
       WISHES: "Morning from task"
