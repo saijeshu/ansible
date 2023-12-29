@@ -2,7 +2,7 @@
   hosts: localhost
   tasks:
   - name: check roboshop user exit or not
-    ansible.builtin.command: id roboshop
+    ansible.builtin.shell: id roboshop
     register: user
 
   - name: print variable value
