@@ -9,9 +9,9 @@
   # - name: WISHES
   #   prompt: please enter your wishes 
   #   private: false
-  vars:
-    PERSON: "Siva from play"
-    WISHES: "Morning from play"
+  # vars:
+  #   PERSON: "Siva from play"
+  #   WISHES: "Morning from play"
   tasks:
   - name: check variables
     # vars:
