@@ -1,4 +1,4 @@
-- name: variables from playlevel
+- name: variables from PLAY level
   hosts: localhost
   vars_files
   - variables.yaml
@@ -18,5 +18,5 @@
       PERSON: "siva from task"
       WISHES: "Morning from task"
     ansible.builtin.debug:
-      msg: "Hello {{PERSON}}, Good{{WISHES}}"
+      msg: "Hello {{PERSON}}, Good {{WISHES}}"
 
